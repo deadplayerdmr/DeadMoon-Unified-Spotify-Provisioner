@@ -1,0 +1,24 @@
+# Never commit live provisioned credentials, cookies, or keys
+spotify_cookies.txt
+spotify_credentials.json
+device.wvd
+*.wvd
+client_id.bin
+*.bin
+private_key.pem
+*.pem
+token.env
+
+# Ignore local auto-downloaded toolchains, virtualenvs, SDKs, and temporary dumps
+.dm_tools/
+wvd_dump/
+local_resources/spotify_cookies.txt
+local_resources/device.wvd
+
+# Python / OS artifacts
+__pycache__/
+*.py[cod]
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.log
